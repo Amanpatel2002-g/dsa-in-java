@@ -22,6 +22,5 @@ public class findFactors {
             }
         }
         System.out.println(st);
-
     }
 }
