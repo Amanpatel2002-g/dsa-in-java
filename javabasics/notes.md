@@ -33,6 +33,7 @@ public class ListDemo {
         arrayList.remove(0);     // O(n)
         System.out.println(arrayList.contains(20)); // O(n) → true
         System.out.println(arrayList.size()); // O(1)
+        arrayList.set(0, 5); // O(1)
 
         // LinkedList Example
         List<Integer> linkedList = new LinkedList<>();

@@ -38,5 +38,11 @@ public class JavaBasicsList {
 
         ArrayList<Integer> arr3 = new ArrayList<>(List.of(1, 2, 3, 4, 5, 6, 7));
         System.err.println("Initialized from the List.of arr3: "+ arr3);
+
+
+        // seting a method.
+
+        arr.set(1, 42);
+        System.out.println("Set a value in a index using the arr.set(: " + arr);
     }
 }
